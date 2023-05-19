@@ -35,10 +35,11 @@ public class AssignmentDropdown2 {
 		int total_days = day_list.size();
 		System.out.println("Total Days count in List : " + total_days);
 		
+		System.out.println("Day Names are: ");
 		for (WebElement ele : day_list) {
 			
 			String day_name = ele.getText();
-			System.out.println("Day Names are :" + day_name);
+			System.out.println(day_name);
 		}
 		
 		Helper.closeBrowser(driver);

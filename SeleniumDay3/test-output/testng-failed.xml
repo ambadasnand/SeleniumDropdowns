@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumlocators.LinkTextandPartialLink">
+      <class name="multipleframes.TestFrameExample">
         <methods>
-          <include name="linkTest"/>
+          <include name="frames"/>
         </methods>
-      </class> <!-- seleniumlocators.LinkTextandPartialLink -->
+      </class> <!-- multipleframes.TestFrameExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

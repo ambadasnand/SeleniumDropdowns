@@ -35,10 +35,12 @@ public class AssignmentDropdown3 {
 		int total_year = year_list.size();
 		System.out.println("Total months count in List : " + total_year);
 		
+		System.out.println("Year Names are: ");
+		
 		for (WebElement ele : year_list) {
 			
 			String year_name = ele.getText();
-			System.out.println("Month Names are :" + year_name);
+			System.out.println(year_name);
 		}
 		
 		Helper.closeBrowser(driver);
